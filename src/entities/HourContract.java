@@ -40,4 +40,7 @@ public class HourContract {
 		this.hours = hours;
 	}
 	
+	public double totalValue() {
+		return this.valuePerHour * this.hours;
+	}
 }
